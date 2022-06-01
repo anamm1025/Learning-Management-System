@@ -1,0 +1,95 @@
+﻿Build started 17/12/2014 07:56:54 PM.
+     1>Project "D:\Documents\OOAD\LMS FINAL\Code\LMS\LMS\LMS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LMS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtCore /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtGui /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtSql /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt course.cpp
+         course.cpp
+     1>d:\documents\ooad\lms final\code\lms\lms\course.cpp(79): warning C4715: 'Course::dropTest' : not all control paths return a value
+     1>d:\documents\ooad\lms final\code\lms\lms\course.cpp(153): warning C4715: 'Course::getQuestion' : not all control paths return a value
+     1>d:\documents\ooad\lms final\code\lms\lms\course.cpp(164): warning C4715: 'Course::getTest' : not all control paths return a value
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\OOAD\LMS FINAL\Code\LMS\Win32\Debug\\LMS.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.0\5.2.0\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LMS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\OOAD\LMS FINAL\Code\LMS\Win32\Debug\LMS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\OOAD\LMS FINAL\Code\LMS\Win32\Debug\LMS.lib" /MACHINE:X86 Debug\addcourse.obj
+         Debug\addquestion.obj
+         Debug\addteacher.obj
+         Debug\Admin.obj
+         Debug\adminprofile.obj
+         Debug\answer.obj
+         Debug\changepassword.obj
+         Debug\chooseexercise.obj
+         Debug\course.obj
+         Debug\DAL.obj
+         Debug\detailedresult.obj
+         Debug\dropcourse.obj
+         Debug\editnextquestion.obj
+         Debug\editprofilen.obj
+         Debug\edittest.obj
+         Debug\exercise.obj
+         Debug\exerciseq.obj
+         Debug\moc_addcourse.obj
+         Debug\moc_addquestion.obj
+         Debug\moc_addteacher.obj
+         Debug\moc_adminprofile.obj
+         Debug\moc_changepassword.obj
+         Debug\moc_chooseexercise.obj
+         Debug\moc_detailedresult.obj
+         Debug\moc_dropcourse.obj
+         Debug\moc_editnextquestion.obj
+         Debug\moc_editprofilen.obj
+         Debug\moc_edittest.obj
+         Debug\moc_exerciseq.obj
+         Debug\moc_lms.obj
+         Debug\moc_login.obj
+         Debug\moc_nextquestion.obj
+         Debug\moc_seenextquestion.obj
+         Debug\moc_selectcourse.obj
+         Debug\moc_selecttest.obj
+         Debug\moc_setteststart.obj
+         Debug\moc_signup.obj
+         Debug\moc_studentprofile.obj
+         Debug\moc_takequiz.obj
+         Debug\moc_teacherprofile.obj
+         Debug\moc_viewpreviousresults.obj
+         Debug\moc_viewresult.obj
+         Debug\moc_viewstudents.obj
+         Debug\moc_viewteachers.obj
+         Debug\qrc_lms.obj
+         Debug\lms.obj
+         Debug\LMSsystem.obj
+         Debug\login.obj
+         Debug\main.obj
+         Debug\nextquestion.obj
+         Debug\Person.obj
+         Debug\question.obj
+         Debug\Result.obj
+         Debug\seenextquestion.obj
+         Debug\selectcourse.obj
+         Debug\selecttest.obj
+         Debug\setteststart.obj
+         Debug\shortQuestion.obj
+         Debug\signup.obj
+         Debug\Student.obj
+         Debug\studentprofile.obj
+         Debug\takequiz.obj
+         Debug\Teacher.obj
+         Debug\teacherprofile.obj
+         Debug\test.obj
+         Debug\viewpreviousresults.obj
+         Debug\viewresult.obj
+         Debug\viewstudents.obj
+         Debug\viewteachers.obj
+         LINK : D:\Documents\OOAD\LMS FINAL\Code\LMS\Win32\Debug\\LMS.exe not found or not built by the last incremental link; performing full link
+         LMS.vcxproj -> D:\Documents\OOAD\LMS FINAL\Code\LMS\Win32\Debug\LMS.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Documents\OOAD\LMS FINAL\Code\LMS\Win32\Debug\\LMS.exe;#1" /manifest Debug\LMS.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\LMS.unsuccessfulbuild".
+         Touching "Debug\LMS.lastbuildstate".
+     1>Done Building Project "D:\Documents\OOAD\LMS FINAL\Code\LMS\LMS\LMS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.94

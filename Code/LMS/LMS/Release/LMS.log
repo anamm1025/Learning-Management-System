@@ -1,0 +1,155 @@
+﻿Build started 11/28/2014 10:44:35 PM.
+     1>Project "C:\Users\Janeeta\Downloads\LMS\LMS\LMS\LMS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\LMS.unsuccessfulbuild".
+       CustomBuild:
+         Moc'ing lms.h...
+         Uic'ing lms.ui...
+         Moc'ing addcourse.h...
+         Moc'ing dropcourse.h...
+         Moc'ing viewstudents.h...
+         Moc'ing viewteachers.h...
+         Moc'ing addteacher.h...
+         Moc'ing addcategory.h...
+         Moc'ing addtest.h...
+         Moc'ing teacherprofile.h...
+         Moc'ing adminprofile.h...
+         Moc'ing changepassword.h...
+         Moc'ing editprofilen.h...
+         Moc'ing studentprofile.h...
+         Moc'ing signup.h...
+         Moc'ing login.h...
+         Rcc'ing lms.qrc...
+     1>RCC : warning : No resources in 'C:\Users\Janeeta\Downloads\LMS\LMS\LMS\lms.qrc'.
+         
+         Uic'ing login.ui...
+         Uic'ing signup.ui...
+         Uic'ing studentprofile.ui...
+         Uic'ing adminprofile.ui...
+         Uic'ing teacherprofile.ui...
+         Uic'ing changepassword.ui...
+         Uic'ing editprofilen.ui...
+         Uic'ing addteacher.ui...
+         Uic'ing addcategory.ui...
+         Uic'ing addtest.ui...
+         Uic'ing viewteachers.ui...
+         Uic'ing viewstudents.ui...
+         Uic'ing addcourse.ui...
+         Uic'ing dropcourse.ui...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtCore /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtGui /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtSql /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt addcategory.cpp addcourse.cpp addteacher.cpp addtest.cpp Admin.cpp adminprofile.cpp answer.cpp changepassword.cpp course.cpp DAL.cpp dropcourse.cpp editprofilen.cpp GeneratedFiles\Release\moc_addcategory.cpp GeneratedFiles\Release\moc_addcourse.cpp GeneratedFiles\Release\moc_addteacher.cpp GeneratedFiles\Release\moc_addtest.cpp GeneratedFiles\Release\moc_adminprofile.cpp GeneratedFiles\Release\moc_changepassword.cpp GeneratedFiles\Release\moc_dropcourse.cpp GeneratedFiles\Release\moc_editprofilen.cpp GeneratedFiles\Release\moc_lms.cpp GeneratedFiles\Release\moc_login.cpp GeneratedFiles\Release\moc_signup.cpp GeneratedFiles\Release\moc_studentprofile.cpp GeneratedFiles\Release\moc_teacherprofile.cpp GeneratedFiles\Release\moc_viewstudents.cpp GeneratedFiles\Release\moc_viewteachers.cpp lms.cpp LMSsystem.cpp login.cpp main.cpp Person.cpp question.cpp signup.cpp Student.cpp studentprofile.cpp Teacher.cpp teacherprofile.cpp test.cpp viewstudents.cpp viewteachers.cpp
+         addcategory.cpp
+         addcourse.cpp
+         addteacher.cpp
+         addtest.cpp
+         Admin.cpp
+         adminprofile.cpp
+         answer.cpp
+         changepassword.cpp
+         course.cpp
+         DAL.cpp
+         dropcourse.cpp
+         editprofilen.cpp
+         moc_addcategory.cpp
+         moc_addcourse.cpp
+         moc_addteacher.cpp
+         moc_addtest.cpp
+         moc_adminprofile.cpp
+         moc_changepassword.cpp
+         moc_dropcourse.cpp
+         moc_editprofilen.cpp
+         Generating Code...
+     1>c:\users\janeeta\downloads\lms\lms\lms\course.cpp(43): warning C4715: 'Course::dropTest' : not all control paths return a value
+         Compiling...
+         moc_lms.cpp
+         moc_login.cpp
+         moc_signup.cpp
+         moc_studentprofile.cpp
+         moc_teacherprofile.cpp
+         moc_viewstudents.cpp
+         moc_viewteachers.cpp
+         lms.cpp
+         LMSsystem.cpp
+         login.cpp
+         main.cpp
+         Person.cpp
+         question.cpp
+         signup.cpp
+         Student.cpp
+         studentprofile.cpp
+         Teacher.cpp
+         teacherprofile.cpp
+         test.cpp
+         viewstudents.cpp
+         Generating Code...
+     1>c:\users\janeeta\downloads\lms\lms\lms\test.cpp(26): warning C4715: 'Test::deleteQuestion' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(85): warning C4715: 'LMSsystem::verifyUsername' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(342): warning C4715: 'LMSsystem::getSessionFname' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(373): warning C4715: 'LMSsystem::getSessionLname' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(403): warning C4715: 'LMSsystem::getSessionContact' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(433): warning C4715: 'LMSsystem::getSessionEmail' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(463): warning C4715: 'LMSsystem::getSessionHome' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(518): warning C4715: 'LMSsystem::EditProfileInfo' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(560): warning C4715: 'LMSsystem::DropATeacher' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(578): warning C4715: 'LMSsystem::DropAStudent' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(542): warning C4715: 'LMSsystem::AddTeacher' : not all control paths return a value
+     1>c:\users\janeeta\downloads\lms\lms\lms\lmssystem.cpp(180): warning C4715: 'LMSsystem::AddStudent' : not all control paths return a value
+         Compiling...
+         viewteachers.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtCore /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtGui /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtSql /IC:\Qt\Qt5.2.0\5.2.0\msvc2010\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_lms.cpp
+         qrc_lms.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Janeeta\Downloads\LMS\LMS\Win32\Release\\LMS.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.0\5.2.0\msvc2010\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\LMS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Janeeta\Downloads\LMS\LMS\Win32\Release\LMS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Janeeta\Downloads\LMS\LMS\Win32\Release\LMS.lib" /MACHINE:X86 Release\addcategory.obj
+         Release\addcourse.obj
+         Release\addteacher.obj
+         Release\addtest.obj
+         Release\Admin.obj
+         Release\adminprofile.obj
+         Release\answer.obj
+         Release\changepassword.obj
+         Release\course.obj
+         Release\DAL.obj
+         Release\dropcourse.obj
+         Release\editprofilen.obj
+         Release\qrc_lms.obj
+         Release\moc_addcategory.obj
+         Release\moc_addcourse.obj
+         Release\moc_addteacher.obj
+         Release\moc_addtest.obj
+         Release\moc_adminprofile.obj
+         Release\moc_changepassword.obj
+         Release\moc_dropcourse.obj
+         Release\moc_editprofilen.obj
+         Release\moc_lms.obj
+         Release\moc_login.obj
+         Release\moc_signup.obj
+         Release\moc_studentprofile.obj
+         Release\moc_teacherprofile.obj
+         Release\moc_viewstudents.obj
+         Release\moc_viewteachers.obj
+         Release\lms.obj
+         Release\LMSsystem.obj
+         Release\login.obj
+         Release\main.obj
+         Release\Person.obj
+         Release\question.obj
+         Release\signup.obj
+         Release\Student.obj
+         Release\studentprofile.obj
+         Release\Teacher.obj
+         Release\teacherprofile.obj
+         Release\test.obj
+         Release\viewstudents.obj
+         Release\viewteachers.obj
+         LMS.vcxproj -> C:\Users\Janeeta\Downloads\LMS\LMS\Win32\Release\LMS.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Janeeta\Downloads\LMS\LMS\Win32\Release\\LMS.exe;#1" /manifest Release\LMS.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\LMS.unsuccessfulbuild".
+         Touching "Release\LMS.lastbuildstate".
+     1>Done Building Project "C:\Users\Janeeta\Downloads\LMS\LMS\LMS\LMS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:09.90
